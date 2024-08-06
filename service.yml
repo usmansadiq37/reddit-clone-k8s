@@ -7,7 +7,7 @@ spec:
     app: reddit-clone
   ports:
   - port: 80
-    targetPort: 3001
+    targetPort: 3000
     protocol: TCP
   type: LoadBalancer
 
